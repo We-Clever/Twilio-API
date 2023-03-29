@@ -4,7 +4,7 @@ async function createTemplate() {
   const response = await axios.post(
     "https://content.twilio.com/v1/Content",
     {
-      friendly_name: "animale_abordagem_10032023",
+      friendly_name: "abordagem_10032023",
       language: "pt_BR",
       variables: {
         1: "name",
